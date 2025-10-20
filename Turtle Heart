@@ -10,7 +10,7 @@ def heartb(K):
   			math.cos(4*K)
 speed(1000000)
 turtle.Screen().bgcolor("black")
-for i in range(3000):
+for i in range(6000):
   goto(hearta(i)*19,heartb(i)*19)
   print(i)
   for j in range(5):
